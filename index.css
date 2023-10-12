@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./1er.png);
+    background-size:cover;
+
+}
+.container{
+    width: 350px;
+    margin: auto;
+    border: 2px solid white;
+    padding-left: 20px;
+    
+    margin-top: 100px;
+    border-radius: 10px 0 10px 0 ;
+    line-height: 2;
+}
+h2{
+    text-align: center;
+    color: maroon;
+}
+input, button, select{
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: brown;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    background-color:transparent;
+    font-size: 18px;
+}
+.result{
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+
+}
